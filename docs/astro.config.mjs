@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://Daniel-Jaekel.github.io',
+	base: '/github-page-test',
 	integrations: [
 		starlight({
 			title: 'My Docs',
